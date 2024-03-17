@@ -1,0 +1,28 @@
+.home{
+display:flex;
+justify-content:center;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.home__row{
+
+display:flex;
+z-index: 1;
+margin:0 5px;
+}
+
+.thumbs-wrapper{
+display: none;
+}
+
+.carousel-status{
+display: none;
+}
+
+.home__image{
+height:6    00px;
+z-index:-1;
+mask-image:linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+}
